@@ -1,0 +1,6 @@
+{
+  "name": "Hostal Los Alamos",
+  "description": "Sitio web oficial del Hostal Los Alamos en Tarija, ofreciendo una experiencia de hospedaje elegante, cómoda y única en pleno centro de la ciudad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

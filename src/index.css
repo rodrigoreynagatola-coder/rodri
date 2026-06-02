@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Libre Baskerville", Georgia, serif;
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Exclusive high-contrast Immersive UI color scheme */
+  --color-brand-dark: #120d0b;       /* Hostal Dark: ultra-deep chocolate espresso */
+  --color-brand-chocolate: #2d1e18;  /* Hostal Rich: cozy warm brown tone */
+  --color-brand-coffee: #3d2d27;     /* Medium warm dark brown */
+  --color-brand-gold: #c18a3e;       /* Hostal Gold: elegant golden amber */
+  --color-brand-accent: #c18a3e;     /* High contrast golden accent */
+  --color-brand-cream: #ffffff;      /* Pure crisp white text & headers */
+  --color-brand-soft: #fbf8f3;       /* Warm background highlights */
+}
+
+/* Custom scrollbar and smooth behaviors */
+html {
+  scroll-behavior: smooth;
+  background-color: #120d0b;
+  color: #ffffff;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background-color: #c18a3e;
+  color: #120d0b;
+}
+
+/* Immersive UI image frame & background styling */
+.immersive-gradient {
+  background: linear-gradient(135deg, #120d0b 0%, #2d1e18 100%);
+}
+
+.immersive-image-frame {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
